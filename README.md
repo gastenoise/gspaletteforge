@@ -174,6 +174,7 @@ MIT
 ## Credits
 
 Built with:
+- Vercel's V0
 - Next.js 16
 - React 19
 - TypeScript
