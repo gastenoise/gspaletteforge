@@ -1,26 +1,3 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @media (prefers-color-scheme: light) {
-      .background { fill: black; }
-      .foreground { fill: white; }
-    }
-    @media (prefers-color-scheme: dark) {
-      .background { fill: white; }
-      .foreground { fill: black; }
-    }
-  </style>
-  <g clip-path="url(#clip0_7960_43945)">
-    <rect class="background" width="180" height="180" rx="37" />
-    <g style="transform: scale(95%); transform-origin: center">
-      <path class="foreground"
-        d="M101.141 53H136.632C151.023 53 162.689 64.6662 162.689 79.0573V112.904H148.112V79.0573C148.112 78.7105 148.098 78.3662 148.072 78.0251L112.581 112.898C112.701 112.902 112.821 112.904 112.941 112.904H148.112V126.672H112.941C98.5504 126.672 86.5638 114.891 86.5638 100.5V66.7434H101.141V100.5C101.141 101.15 101.191 101.792 101.289 102.422L137.56 66.7816C137.255 66.7563 136.945 66.7434 136.632 66.7434H101.141V53Z" />
-      <path class="foreground"
-        d="M65.2926 124.136L14 66.7372H34.6355L64.7495 100.436V66.7372H80.1365V118.47C80.1365 126.278 70.4953 129.958 65.2926 124.136Z" />
-    </g>
-  </g>
-  <defs>
-    <clipPath id="clip0_7960_43945">
-      <rect width="180" height="180" fill="white" />
-    </clipPath>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90"><image width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+kLFBEQC5XAE60AAALNSURBVHja7d27btpQHAbw70RINAvuUmcjWZrFfoMqVpjSvVW7hLUTb4CUSCi8QZdmhClIfQAmS0Z9AvDUhcvmMAQvhTI4AyARh0vc2jm+fN+UKBKH/HI4/p+LHfF3NvHARJ4DEhA6Vcmtf3P46RdFQsyfnx/Yozl0EJohNKEZQhOa0AyhCc0QmtCEZghNaIbQhCY0Q+i4Jyf7DRiagh+V9wCAEzUf+utbPRf11hCWPclujzY0Be2ajhM1HwkyABh6Ae2ajnJJzS509Uvx1dq6PD/KcI/WC6lsK5Zj9Hr850rWz0WE8XNWHSzv5Gbszjd+TeiwL5aNPsbuHGN3jmqjzzo6qjRMBw3T4dDBZAQ6SWN4oqGTNIbnkgydpDGcYzShCc0QmtCEJgGhUxVpdbShKfCWN0cLABAigvVjAXjeogFv0aasvcMDWcjtmg4hACGW0l74t6R7K+Slucy9QynQm/YKX+vOf1l7h3J6tH//zgOEEKG3I4R49kGRtXcYi7WOw8/R3oMeh71DVh1phu47syffH7/LR9aW/7X9bacaeuj7Zatfi5FgG5qC28rpzrZTPUZb9sOTi1K5pG4tu/adnQt6ds+yH7LTo+ut0Ys/wrvOzgU9u7f4o42ydTH8eNWF1XP/q/4NcnbP6rm4uO5mbwo+uJ/h4rqLcknF5fkRint65ab69yU1cdN00LEnaEre8pJeRzdNZytC0Po3zs+EYh1NaEIzhCY0oeP85naticRlDSMV0B3ftPu2cgpDU1AuqbFZw0hMHb1zUuNMn01QDF3fMq0fskf/a+qtEW7u9gM2TUf6DZuJ7tEr7GP1Dc40ZeMU/eZuKG2hKFXQAPDt+28YmoIzrQBDe4vB/RQDZ4qO7ca+J68i1h89z+dHhxs+P5oXQ0IzhCY0Q2hCE5ohNKEZQhOa0AyhCc0QmtCEZgidgAj+u2r2aEIzwfMILDnvyVRqDJgAAAAASUVORK5CYII="></image><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
