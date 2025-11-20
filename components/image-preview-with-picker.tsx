@@ -149,7 +149,7 @@ export function ImagePreview({
               {zipPreviewData && zipPreviewData.count > 1 && (
                 <div className="mt-3 p-3 bg-muted/50 border-2 border-border text-center">
                   <p className="text-xs font-bold text-foreground">
-                    Mostrando la imagen más grande del ZIP
+                    Displaying the largest image from the ZIP
                   </p>
                   <p className="text-xs text-muted-foreground mt-1">
                     +{zipPreviewData.count - 1} imagen{zipPreviewData.count - 1 !== 1 ? 'es' : ''} adicional{zipPreviewData.count - 1 !== 1 ? 'es' : ''} será{zipPreviewData.count - 1 !== 1 ? 'n' : ''} procesada{zipPreviewData.count - 1 !== 1 ? 's' : ''}
@@ -178,7 +178,7 @@ export function ImagePreview({
               {processedResults.length > 1 && (
                 <div className="mt-3 p-3 bg-muted/50 border-2 border-border text-center">
                   <p className="text-xs font-bold text-foreground">
-                    Mostrando la imagen más grande procesada
+                    Displaying the largest processed image
                   </p>
                   <p className="text-xs text-muted-foreground mt-1">
                     +{processedResults.length - 1} imagen{processedResults.length - 1 !== 1 ? 'es' : ''} adicional{processedResults.length - 1 !== 1 ? 'es' : ''} también {processedResults.length - 1 !== 1 ? 'fueron procesadas' : 'fue procesada'}

@@ -97,12 +97,8 @@ export function ImagePreview({
               </div>
               {zipPreviewData && zipPreviewData.count > 1 && (
                 <div className="mt-2 md:mt-3 p-2 md:p-3 bg-muted/50 border-2 border-border text-center">
-                  <p className="text-xs font-bold text-foreground">Mostrando la imagen más grande del ZIP</p>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    +{zipPreviewData.count - 1} imagen{zipPreviewData.count - 1 !== 1 ? "es" : ""} adicional
-                    {zipPreviewData.count - 1 !== 1 ? "es" : ""} será{zipPreviewData.count - 1 !== 1 ? "n" : ""}{" "}
-                    procesada{zipPreviewData.count - 1 !== 1 ? "s" : ""}
-                  </p>
+                  <p className="text-xs font-bold text-foreground">Displaying the largest image from the ZIP</p>
+                  <p className="text-xs text-muted-foreground mt-1">+{zipPreviewData.count - 1} additional image{zipPreviewData.count - 1 !== 1 ? "s" : ""} will be processed</p>
                 </div>
               )}
             </>
@@ -123,12 +119,8 @@ export function ImagePreview({
               </div>
               {processedResults.length > 1 && (
                 <div className="mt-2 md:mt-3 p-2 md:p-3 bg-muted/50 border-2 border-border text-center">
-                  <p className="text-xs font-bold text-foreground">Mostrando la imagen más grande procesada</p>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    +{processedResults.length - 1} imagen{processedResults.length - 1 !== 1 ? "es" : ""} adicional
-                    {processedResults.length - 1 !== 1 ? "es" : ""} también{" "}
-                    {processedResults.length - 1 !== 1 ? "fueron procesadas" : "fue procesada"}
-                  </p>
+                  <p className="text-xs font-bold text-foreground">Displaying the largest processed image</p>
+                  <p className="text-xs text-muted-foreground mt-1">+{processedResults.length - 1} additional image{processedResults.length - 1 !== 1 ? "s" : ""} {processedResults.length - 1 !== 1 ? "processed" : "processed"}</p>
                 </div>
               )}
             </>
