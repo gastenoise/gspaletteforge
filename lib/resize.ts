@@ -15,8 +15,8 @@ export function calculateResizedDimensions(
   const scale = maxSize / largerSide
   
   // Scale both dimensions
-  let width = originalWidth * scale
-  let height = originalHeight * scale
+  let width = (scale < 1) ? (originalWidth * scale) : originalWidth;
+  let height = (scale < 1) ? (originalHeight * scale) : originalHeight;
   
   // Snap to nearest multiple of 16
   width = snapToMultiple16(width, maxSize)
